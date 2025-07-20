@@ -61,7 +61,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="md:w-1/2 flex justify-center md:justify-start">
+       <div className="md:w-1/2 flex justify-center md:justify-center">
           <div className="bg-white p-8 rounded-lg shadow-md max-w-sm w-full">
             <h3 className="text-xl font-semibold text-[#301D16] mb-2">Reserve Your Table</h3>
             <p className="text-gray-600 mb-6">Book your experience with us</p>

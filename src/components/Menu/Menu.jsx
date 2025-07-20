@@ -12,8 +12,8 @@ import nitros from '../../assets/nitros.png';
 
 const CoffeeCard = ({ name, price, tag, description, image }) => (
   <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden">
-    {/* A kép konténerének magasságát növeljük 'h-96' osztállyal */}
-    <div className="relative w-full h-96"> {/* Módosítva: h-72 helyett h-96 */}
+    
+    <div className="relative w-full h-96"> 
       <img src={image} alt={name} className="object-cover w-full h-full" />
       <span className="absolute top-2 left-2 bg-[#301D16]/90 text-white text-xs px-3 py-1 rounded-full">
         {tag}

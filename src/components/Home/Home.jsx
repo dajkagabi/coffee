@@ -3,6 +3,7 @@ import Hero from "../Hero/Hero";
 import Contact from "../Contact/Contact";
 import Team from "../Team/Team";
 import Choose from "../Choose/Choose";
+import Gallery from "../Gallery/Gallery";
 
 const Home = () => {
   return (
@@ -10,7 +11,9 @@ const Home = () => {
       <Hero />
       <Team />
       <Choose />
+  
       <Contact />
+   
     </div>
   );
 };
